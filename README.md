@@ -22,5 +22,5 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 # Steps to reproduce the results
 
-* Refer to the `run_analysis.R` for the complete script
+* Refer to the `run_analysis.R` for the complete script and the DETAILED EXPLAINATION of ̸the script
 * Refer to the `tidydata.txt` for `Starryskywalker's` result
