@@ -85,10 +85,5 @@ dim(Data2)
 names(Data2)
 Data2$activity
 
-Data2$activity <- replace(Data2$activity, 1:180, c("WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS","SITTING","STANDING","LAYING"))
+Data2$activity <- replace(Data2$activity, 1:180, as.character(activityLabels))
 write.table(Data2, file = "tidydata.txt", row.name=FALSE)
-
-# 11.Prouduce Codebook
-
-library(knitr)
-knit("makeCodebook.Rmd", output = "CodeBook.md", encoding = "ISO8859-1", quiet = TRUE)
