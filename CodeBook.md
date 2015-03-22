@@ -47,8 +47,8 @@ Following data files are used:
 
 ## All the variables and summaries calculated
 
- [1] "subject"                                       
- [2] "activity"                                      
+ [1] "subject" - the individuals involved in the test                                       
+ [2] "activity" - see "activity code" below                                     
  [3] "timeBodyAccelerometer-mean()-X"                
  [4] "timeBodyAccelerometer-mean()-Y"                
  [5] "timeBodyAccelerometer-mean()-Z"                

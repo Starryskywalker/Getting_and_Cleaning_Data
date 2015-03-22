@@ -85,5 +85,6 @@ dim(Data2)
 names(Data2)
 Data2$activity
 
+# replace the activity codes with descriptive wording
 Data2$activity <- replace(Data2$activity, 1:180, as.character(activityLabels))
 write.table(Data2, file = "tidydata.txt", row.name=FALSE)

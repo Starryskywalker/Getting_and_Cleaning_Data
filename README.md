@@ -1,4 +1,4 @@
-﻿# Getting_and_Cleaning_Data
+# Getting_and_Cleaning_Data
 Course Project
 
 This project is to the 2015 March 2nd Coursera "Getting and Cleaning Data" course project 
