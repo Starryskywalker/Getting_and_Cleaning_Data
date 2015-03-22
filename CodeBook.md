@@ -110,7 +110,9 @@ Following data files are used:
 [61] "frequencyBodyAccelerometerMagnitude-mean()"    
 [62] "frequencyBodyAccelerometerMagnitude-std()"     
 [63] "frequencyBodyAccelerometerJerkMagnitude-mean()"
+
 [64] "frequencyBodyAccelerometerJerkMagnitude-std()" 
+
 [65] "frequencyBodyGyroscopeMagnitude-mean()"        
 [66] "frequencyBodyGyroscopeMagnitude-std()"         
 [67] "frequencyBodyGyroscopeJerkMagnitude-mean()"    
