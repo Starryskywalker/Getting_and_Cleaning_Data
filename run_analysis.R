@@ -79,6 +79,13 @@ names(Data) <- gsub("BodyBody", "Body", names(Data))
 library(plyr)
 Data2 <- aggregate(. ~subject + activity, Data, mean)
 Data2 <- Data2[order(Data2$subject,Data2$activity),]
+
+# check Data2
+dim(Data2)
+names(Data2)
+Data2$activity
+
+Data2$activity <- replace(Data2$activity, 1:180, c("WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS","SITTING","STANDING","LAYING"))
 write.table(Data2, file = "tidydata.txt", row.name=FALSE)
 
 # 11.Prouduce Codebook
