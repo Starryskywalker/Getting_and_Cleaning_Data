@@ -5,8 +5,10 @@ performed to clean up the data
 
 ## The data source
 
-* Original data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-* Original description of the dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+* Original data:
+* https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+* Original description of the dataset: 
+* http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ## Data Set Information
 
@@ -38,7 +40,7 @@ Following data files are used:
 
 ## Transformation details
 
-Merge the training and the test sets to a complete data set
-Extract only the mean and standard deviation for each measurement
-Replace data set names with descriptive activity names
-Create a second, independent tidy data set with the average of each variable for each activity and each subject.
+* Merge the training and the test sets to a complete data set
+* Extract only the mean and standard deviation for each measurement
+* Replace data set names with descriptive activity names
+* Create a second, independent tidy data set with the average of each variable for each activity and each subject.
